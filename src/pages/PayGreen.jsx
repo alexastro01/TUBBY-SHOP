@@ -86,7 +86,7 @@ function PayGreen  ()  {
         
         let accounts = await ethereum.request({ method: "eth_requestAccounts" });
         
-        let nftTxn = await connectedContract.mint(accounts[0], 2, 1 , 32, { value: utils.parseEther('0.009'), gasLimit: 50000 } );
+        let nftTxn = await connectedContract.mint(accounts[0], 2, 1 , 32, { value: utils.parseEther('0.009'), gasLimit: 75000 } );
        
         console.log("Mining...please wait.")
         setIsLoading(true);
