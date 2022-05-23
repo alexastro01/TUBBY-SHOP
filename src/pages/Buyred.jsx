@@ -22,7 +22,7 @@ function Buyred() {
         <input type="text" name="ETH address" placeholder='Your ETH address' required className='mt-3 pl-2 rounded-md'/>
         <input type="email" name="email" placeholder='EMail' required className='mt-3 pl-2 mb-3 rounded-md'/>
         <textarea type="text" name="Address" placeholder='Shipping Address '  required className='w-full h-20 mb-3 rounded-md pl-2' />
-        <input type="hidden" name="_next" value="http://localhost:3000/payred" />
+        <input type="hidden" name="_next" value="https://tubby-shop.vercel.app/payred" />
         <input type="hidden" name="_captcha" value="false"/>
         
         <button type="submit" className='bg-white rounded-full w-20 h-9 font-medium hover:scale-110 transition-transform ml-[135px] sm:ml-[330px] '>Send</button>
